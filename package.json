@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack --mode=development",
     "dev": "webpack-dev-server --mode=development",
-    "prod": "webpack --mode=production"
+    "prod": "webpack --mode=production",
+    "build": "webpack --config webpack.config.js --progress"
   },
   "keywords": [],
   "repository": {
