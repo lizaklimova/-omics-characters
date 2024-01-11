@@ -1,4 +1,4 @@
-import "./styles/reset.sass";
+import "./styles/reset.scss";
 
 const a = document.createElement("div");
 console.log(a);

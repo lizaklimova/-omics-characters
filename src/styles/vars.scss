@@ -1,0 +1,11 @@
+$bg-color: #0c0b0b;
+$text-color: #fafafa;
+$contrast-black: #171717;
+$accent-purple: #34387f;
+$text-purple: #4b50ad;
+$accent-red: #600404;
+$accent-green: #5b7f3c;
+
+@mixin white-with-opacity($opacity) {
+  color: rgba(250, 250, 250, $opacity);
+}
